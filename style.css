@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    background-color: beige;
+}
+header{
+   height: 50px;
+    font-size: 16px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+header a{
+    width: 150px;
+    text-align: center;
+    color: red;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+    float: left;
+
+}
+
+header a:hover{
+background-color:grey;
+color: black;
+
+}
+.content{
+    padding: 30px;
+
+}
+
+.block{
+    background-color: rgb(224, 70, 70);
+}
+
+
+.block-right{
+    width:30%;
+    float:right;
+}
+
+.block-left{
+    width:70%;
+    float:left;
+}
+
+.column{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    width:33%;
+    float:left;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+
+
+}
